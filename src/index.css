@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Custom pagination dots */
+/* Geser pagination ke luar area swiper */
+.custom-swiper .swiper-pagination {
+  position: relative !important;
+  margin-top: 16px; /* jarak antara carousel dan pagination */
+}
+
+/* Custom style bullet */
+.custom-swiper .swiper-pagination-bullet {
+  background-color: #0d542b;
+  opacity: 0.4;
+  transition: all 0.3s;
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: #0d542b;
+  width: 24px;
+  border-radius: 9999px;
+}
+
