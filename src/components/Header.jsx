@@ -2,7 +2,7 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 
 export function Header() {
-    const logo = "public/img/senechcoffee-logo-removebg-preview.png"
+    const logo = "/img/senechcoffee-logo-removebg-preview.png"
     return (
         <header className=" w-full py-2 px-[5%] text-black flex items-center justify-between">
             <div className="w-16">

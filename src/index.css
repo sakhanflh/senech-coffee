@@ -21,3 +21,13 @@
   border-radius: 9999px;
 }
 
+/* Hilangkan scrollbar horizontal di mobile */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE dan Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+
